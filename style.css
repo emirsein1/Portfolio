@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(20, 24, 37, 1);
+    font-family: 'calibri';
+    font-size: 20px;
+
+}
+.grid-container{
+ display: grid;
+ grid-template-columns: 250px 750px;
+ grid-template-rows: 400px 400px;
+ gap: 1rem;
+ justify-content: right;
+border: 1em;
+
+    
+       
+}
+
+header {
+    background: rgba(20, 24, 37, 1);
+    width: 100%;
+    clear:both;
+    content: '';
+    display: table;
+}
+
+
+.menu {
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+
+h1{
+    text-align: start;
+    width: 302px;
+    height: 152px;
+    float: left;
+    padding: 10px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+
+}
+
+h2{
+    text-align: left;
+    width: 302px;
+    height: 152px;
+    float: left;
+    padding: 10px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+nav{
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+   margin-left: 75px;
+   padding: 12px 0;
+    float: left;
+    position: relative;
+ 
+}
+
+.Bienvenidos{
+    width: 207px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 180px;
+    left: 140px;
+    font-family: Inter;
+    font-weight: Extra Bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+
+.a{
+    width: 36px;
+    color: rgba(151, 71, 255, 1);
+    position: absolute;
+    top: 180px;
+    left: 347px;
+    font-family: Inter;
+    font-weight: Extra Bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+
+
+.Portfolio{
+        width: 733px;
+        color: rgba(255,255,255,1);
+        position: absolute;
+        top: 232px;
+        left: 134px;
+        font-family: Sen;
+        font-weight: ExtraBold;
+        font-size: 70px;
+        opacity: 1;
+        text-align: left;
+}
+
+.lic{
+    width: 419px;
+    color: rgba(151, 71, 255, 1);
+    position: absolute;
+    top: 329px;
+    left: 140px;
+    font-family: Inter;
+    font-weight: Extra Bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+
+.text{
+    width: 575px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 378px;
+    left: 140px;
+    font-family: Inter;
+    font-weight: Extra Bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+
+
+.logos{
+    width: 985px;
+    height: 158px;
+    background: rgba(20, 24, 37, 1);
+    width: 100%;
+    opacity: 1;
+    position: absolute;
+    top: 562px;
+    left: 134px;
+    overflow: hidden;
+}
+
+.logo1{
+    width: 60px;
+    height: 58px;
+    background: rgba(217, 217, 217, 1);
+    opacity: 1;
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    border-radius: 50%;
+    
+}
+.logo2{
+    width: 60px;
+    height: 58px;
+    background: rgba(217, 217, 217, 1);
+    opacity: 1;
+    position: absolute;
+    top: 6px;
+    left: 110px;
+    border-radius: 50%;
+    
+}
+
+.logo3{
+    width: 60px;
+    height: 58px;
+    background: rgba(217, 217, 217, 1);
+    opacity: 1;
+    position: absolute;
+    top: 6px;
+    left: 210px;
+    border-radius: 50%;
+    
+}
+
+.footer1{
+    width: 856px;
+    color: rgba(151, 71, 255, 1);
+    position: absolute;
+    top: 78px;
+    left: 1px;
+    font-family: Sen;
+    font-weight: ExtraBold;
+    font-size: 26px;
+    opacity: 1;
+    text-align: left;
+}
+
+
+.footer2{
+    width: 537px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 130px;
+    left: 1px;
+    font-family: Sen;
+    font-weight: ExtraBold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+}
+
+
+
+
+
+nav ul li a { 
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-weight: bold;
+}
+
+
+nav ul li a::before {
+    display: block;
+    content: '';
+    width: 0%;
+    background: rgb(255, 255, 255);
+    height: 5px;
+    top:0;
+    position: absolute;
+    transition: width 0.5s
+ ;
+
+}
+
+nav ul li a:hover::before {
+    width: 100%;
+
+
+}
+
